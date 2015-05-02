@@ -11,21 +11,24 @@ use the following code:
 
 ```php
 class YourGenericClass {
-    use Eventify\Eventify;
-
-    public function myGenericFunction() {
-        $this->on('foo', function() {
-	    echo 'OMG!';
-	});
-
+	use Eventify\Eventify;
+	
+	public function myGenericFunction() {
+		$this->on('foo', function() {
+			echo 'OMG!';
+		});
+		
+		...
+	}
+	
+	public function anotherGenericFunction() {
+		$this->trigger('foo');
+		
+		...
+	}
+    
 	...
-    }
-
-    public function anotherGenericFunction() {
-        $this->trigger('foo');
-
-	...
-    }
+}
 ```
 
 That's it!  Eventify includes two new methods into your class structure, `on` and `trigger`.  Please see the `example.php` file for usage information.
