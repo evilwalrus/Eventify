@@ -1,8 +1,10 @@
-[[Eventify]]
+# Eventify
 
-A stupidly-simple event handling trait for PHP.  If you have ideas for keeping this simple, but extending the usefulness of this project, please fork and send pull requests.  It would be interesting to me to see how elegant this solution can get, and the options that could be added.
+A stupidly-simple event handling trait for PHP.  If you have ideas for keeping this simple, but extending the usefulness of this project, please fork and send pull requests.
 
-[[[Usage]]]
+It would be interesting to me to see how elegant this solution can get, and the options that could be added.
+
+## Usage
 
 Either you can use the supplied autoloader (which would be stupid for a library this small), or you can simple drop the Eventify.php file into your own autoloaded path, and
 use the following code:
