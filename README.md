@@ -6,8 +6,7 @@ It would be interesting to me to see how elegant this solution can get, and the 
 
 ## Usage
 
-Either you can use the supplied autoloader (which would be stupid for a library this small), or you can simple drop the Eventify.php file into your own autoloaded path, and
-use the following code:
+Either you can use the supplied autoloader (which would be stupid for a library this small), or you can simply drop the Eventify.php file into your own autoloaded path, and use the following code:
 
 ```php
 class YourGenericClass {
